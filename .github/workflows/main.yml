@@ -84,3 +84,4 @@ jobs:
 
           "TAILSCALE_IP=$tsIP" | Out-File -FilePath $env:GITHUB_ENV -Encoding utf8 -Append
           Write-Host "Connected! IP: $tsIP"
+          
